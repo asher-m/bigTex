@@ -1,5 +1,5 @@
 # BigTeX
-A multi-line LaTeX project
+A multi-file LaTeX project
 
 This project exists because I'm tired of getting stuck in multiple-tens-of-thousands-of-line Overleaf projects where no one has broken the primary source document into its respective sections, etc...
 
