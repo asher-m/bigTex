@@ -144,7 +144,7 @@
 .*.lb
 .*.swp
 ./auto/*
-.pdf
+*.pdf
 .texpadtmp
 TSWLatexianTemp*
 _minted*

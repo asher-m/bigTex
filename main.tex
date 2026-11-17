@@ -1,8 +1,12 @@
 \documentclass{article}
 
+% Allow the shared local package to be found when a chapter is compiled from
+% the chapters/ directory as well as when this root document is compiled.
+\usepackage{bigtex-macros}
+
 \input{packages}
-\input{macros}
 \input{config}
+\input{document-macros}
 
 \begin{document}
     \maketitle

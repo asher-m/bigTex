@@ -1,3 +1,9 @@
+\ProvidesPackage{bigtex-macros}[2026/11/17 Reusable BigTeX macros]
+
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{xcolor}
+
 % math
 \newcommand{\N}{\mathbb{N}}                                             % naturals
 \newcommand{\R}{\mathbb{R}}                                             % reals
@@ -27,12 +33,6 @@
 \DeclareMathOperator*{\argmin}{arg\,min}                                % argmin
 \newcommand{\set}[1]{\seq{#1}}                                          % set of stuff
 \newcommand{\seq}[1]{\left\{ #1 \right\}}                               % sequence of stuff
-
-% doc-specific macros
-\newcommand{\Corr}[1]{\text{Corr}\l( #1 \r)}                            % correlation function
-\newcommand{\Cov}[1]{\text{Cov}\l( #1 \r)}                              % covariance function
-\newcommand{\Var}[1]{\text{Var}\l( #1 \r)}                              % variance function
-\newcommand{\diag}[1]{\text{diag}\l( #1 \r)}                            % diag "fuction"
 
 % meta
 \newcommand{\code}[1]{\texttt{#1}}                                      % code
